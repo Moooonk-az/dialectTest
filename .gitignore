@@ -1,3 +1,23 @@
+# Nested build directory
+/build*
+
+# vscode configurations
+/.vscode
+
+# IDEA configurations
+/.idea
+
+# ONNX models
+*.onnx
+
+# Clangd cache
+.cache
+
+*.o
+*.a
+*.so
+*.dll
+
 # Prerequisites
 *.d
 
