@@ -32,4 +32,11 @@ cmake -G Ninja ../llvm
 ### build dialectTest
 ```
 cd dialectTest && mkdir build
+cd build
+cmake .. && make
+```
+
+### test
+```
+./bin/dialectTest ../input/input.mlir
 ```

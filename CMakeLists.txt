@@ -116,4 +116,4 @@ include(AddMLIR)
 # Directory setup
 #-------------------------------------------------------------------------------
 
-add_subdirectory(mlirInputParser)
+add_subdirectory(src)
